@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+	
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="web design">
@@ -10,6 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="preload" as="font" type="font/woff2" href="./fonts/fontawesome-webfont.woff2?v=4.7.0" crossorigin>
+
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
@@ -18,6 +21,7 @@
 	<script defer src="./js/blocs.js"></script>
 	<script defer src="./js/jqBootstrapValidation.js"></script>
 	<script defer src="./js/formHandler.js"></script>
+
     <title>Web Designer - GoMike Designs</title>
 
     
@@ -26,6 +30,7 @@
 <!-- Analytics END -->
     
 </head>
+
 <body>
 <!-- Main container -->
 <div class="page-container">
@@ -40,7 +45,7 @@
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+			<nav class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a href="index.html">Home</a>
@@ -51,7 +56,7 @@
 						<a href="page2.html">Contact</a>
 					</li>
 				</ul>
-			</div>
+			</nav>
 		</nav>
 	</div>
 </header>
@@ -62,9 +67,9 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center hero-bloc-text tc-white">
+				<h1 class="text-center hero-bloc-text tc-white">
 					Let&rsquo;s talk web design!
-				</p>
+				</h1>
 				<p class="text-center mg-lg tc-white tight-width-whitespace">
 					I&rsquo;m super excited that you want to work together.<br>Please fill in the form below or get in touch so I can learn about your project <br>and we can setup time to &nbsp;talk websites and Atlanta city love.
 				</p>
@@ -134,22 +139,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a aria-label="twitter" class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a aria-label="facebook" class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a aria-label="dribble" class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a aria-label="instagram" class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
@@ -164,4 +169,5 @@
     
 
 </body>
+
 </html>
