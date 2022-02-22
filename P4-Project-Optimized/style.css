@@ -588,3 +588,6 @@ h1 {
         padding-right: 0;
     }
 }
+.img-intro {
+    max-width: 100%;
+}
